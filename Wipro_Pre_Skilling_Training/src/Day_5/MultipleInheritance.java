@@ -8,7 +8,7 @@ interface A
 	 default void aboutIntefaceA()
 	 {
 		 System.out.println("This is interface A From Default Method");
-	 }
+	 } 
 	 static void aboutIntefaceStatic()
 	 {
 		 System.out.println("This is interface A From Static Method");
