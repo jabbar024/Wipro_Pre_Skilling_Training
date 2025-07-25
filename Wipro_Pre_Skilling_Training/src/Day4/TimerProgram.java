@@ -16,7 +16,7 @@ public class TimerProgram
 
         for (int i = 0; i < times.length; i++) {
             period = (times[i] < 12.00) ? "AM" : "PM";
-            System.out.println("Now the time is : " + times[i] + " " + period);
+            System.out.println("Now the time is : " + (times[i]>12 ? times[i]-12 : times[i]) + " " + period);
             System.out.println("So your task is : " + tasks[i]);
             System.out.println("---------------------------");
         }
