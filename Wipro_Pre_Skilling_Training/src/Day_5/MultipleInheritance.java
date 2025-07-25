@@ -1,7 +1,7 @@
 package Day_5;
 
 
-interface A
+interface A 
 {
 	 void printMessage() ;
 	 
