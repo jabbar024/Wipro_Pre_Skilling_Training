@@ -1,4 +1,4 @@
-package Day_9;
+package Day_10;
 
 import java.io.BufferedWriter;
 import java.io.File;
